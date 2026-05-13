@@ -454,15 +454,15 @@ def perfil_eleccion_hibrido_flechas(
     else:
         right_image_html = "<div class='pd-h-no-image'>Sin imagen</div>"
 
-    tabla += (
-        "<div class='pd-h-cell pd-h-cell-image'>"
-        f"{left_image_html}"
-        "</div>"
-        "<div class='pd-h-arrow'></div>"
-        "<div class='pd-h-cell pd-h-cell-image'>"
-        f"{right_image_html}"
-        "</div>"
-    )
+    #tabla += (
+    #    "<div class='pd-h-cell pd-h-cell-image'>"
+    #    f"{left_image_html}"
+    #    "</div>"
+    #    "<div class='pd-h-arrow'></div>"
+    #    "<div class='pd-h-cell pd-h-cell-image'>"
+    #    f"{right_image_html}"
+    #    "</div>"
+    #)
 
     for row in rows:
         tabla += (
@@ -811,7 +811,7 @@ def generate_pd_screen(id_pd_card):
     costo_b_bajo = costo_b_list[0]
     costo_b_alto = costo_b_list[2]
 
-    st.divider()
+    #st.divider()
 
     st.markdown(
         (
@@ -856,7 +856,7 @@ def generate_pd_screen(id_pd_card):
             unsafe_allow_html=True
         )
 
-        st.divider()
+        #st.divider()
 
         if choice_alt_chosen == 1:
 
