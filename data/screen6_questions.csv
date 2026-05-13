@@ -1,0 +1,12 @@
+﻿type;title;text;text;text
+key;;parrafo1;parrafo2;parrafo3
+label;Introducción PD;En el marco de un proyecto que busca estudiar la conveniencia de extender el servicio ferroviario al centro de Concepción, en las siguiente pantallas le mostraremos escenarios hipotéticos de elección entre una alternativa actual (Biotren combinado con Taxibus) y otra que se busca analizar (Biotren combinado con Metro).;Le pedimos que analice detenidamente ambas opciones presentadas y luego elija la alternativa que realmente utilizaría si repitiera un viaje idéntico al que se encuentra realizando ahora (mismo origen, destino, horario del día y propósito);Vale señalar que, la encuesta es totalmente anónima y no hay respuestas correctas o incorrectas.
+label2;;;;
+opcion_1;;;;
+opcion_2;;;;
+opcion_3;;;;
+opcion_4;;;;
+opcion_5;;;;
+opcion_6;;;;
+opcion_7;;;;
+opcion_8;;;;

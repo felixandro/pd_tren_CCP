@@ -1,0 +1,8 @@
+﻿type;title;selectbox;selectbox
+key;;id_encuestador;pc
+label;Encuestador;Encuestador;Punto de Control
+label2;;;
+opcion_1;;Gabriel Novoa;Estación Concepción BT
+opcion_2;;Constanza Espinoza;
+opcion_3;;Sebastian Cid;
+opcion_4;;Oscar Cofre;

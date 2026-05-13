@@ -1,0 +1,11 @@
+﻿type;selectbox;number_input
+key;modo_2;te_bt_PR
+label;¿Cómo llegó a la Estación Concepción?;¿Cuánto estima que esperará la llegada del Biotren?
+label2;;Minutos de espera en la estación
+opcion_1;Caminando;1
+opcion_2;En Auto;100
+opcion_3;En la B01 o B02 (alimentadores del biotren);
+opcion_4;En los taxibuses de t. público (azules con gris);
+opcion_5;Otro;
+opcion_6;;
+opcion_7;;

@@ -1,0 +1,11 @@
+﻿type;number_input;selectbox
+key;te_bt_PR;modo_2
+label;Al subirse al tren ¿Cuánto debió esperar la llegada de este?;Cuando sale de la Estación Concepción ¿Cómo llega a su destino?
+label2;Minutos de espera en la estación;
+opcion_1;1;Caminando
+opcion_2;100;En Auto
+opcion_3;;En la B01 o B02 (alimentadores del biotren)
+opcion_4;;En los taxibuses de t. público (azules con gris)
+opcion_5;;Otro
+opcion_6;;
+opcion_7;;

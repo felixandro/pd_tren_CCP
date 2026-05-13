@@ -1,0 +1,11 @@
+﻿type;title;selectbox;number_input;title;selectbox
+key;;genero;edad;;proposito
+label;Características del Usuario;¿Cuál es su Género?;¿Cuál es su Edad?;Características del Viaje;¿Cuál es el Propósito de su viaje?
+label2;;;;;
+opcion_1;;Femenino;14;;Trabajo
+opcion_2;;Masculino;100;;Estudio
+opcion_3;;;;;Otro
+opcion_4;;;;;
+opcion_5;;;;;
+opcion_6;;;;;
+opcion_7;;;;;
