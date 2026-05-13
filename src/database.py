@@ -29,7 +29,7 @@ def set_lowercase_keys(input_dict):
 
 def insert_row(row_dict):
     
-    response = supabase.table("pd_antofa").insert(row_dict).execute()
+    response = supabase.table("pd_ccp").insert(row_dict).execute()
 
 def send_to_database(responses_dict):
 
