@@ -173,7 +173,12 @@ if st.session_state["od_screen_completed"] and not screen_5x_completed:
 
         else:
             # Función para finalizar encuesta por OD inválido
-            pass
+            st.session_state["screen51_completed"] = True
+            st.session_state["screen52_completed"] = True
+            st.session_state["screen6_completed"] = True
+            st.session_state["order_pd_choice_sets"] = []
+            st.session_state["screen15_completed"] = True
+            st.rerun()
 
     else:
         gs.generate_general_screen(id_screen=52)
