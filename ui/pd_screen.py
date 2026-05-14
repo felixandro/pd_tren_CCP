@@ -769,7 +769,16 @@ def get_figure_path(alternativa):
         return "data/figuras/corredor.png"
 
 def get_costo_b_list(costo_a):
-    return [costo_a, costo_a + 300, costo_a + 600]
+
+    cb_list = [int(costo_a), 
+               int(costo_a + 300), 
+               int(costo_a + 600)]
+
+    for i in range(len(cb_list)):
+        if f"cb_{i}" not in st.session_state["responses"]["choice_dict"]:
+            st.session_state["responses"]["choice_dict"][f"cb_{i}"] = cb_list[i]
+
+    return cb_list
 
 def generate_pd_screen(id_pd_card):
     def format_currency_safe(value):
